@@ -2,11 +2,5 @@
 # _*_ coding: utf-8 _*_
 
 word = "stressed"
-reverse = ""
-temp = ""
-
-for c in word:
-    temp = c + reverse
-    reverse = temp
-
+reverse = word[::-1]
 print(reverse)
